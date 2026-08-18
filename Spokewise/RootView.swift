@@ -40,4 +40,6 @@ struct RootView: View {
     }
 }
 
+#if DEBUG
 #Preview { RootView(container: SpokeContainer.preview()) }
+#endif
